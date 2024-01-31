@@ -1,0 +1,43 @@
+.home-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;/* Adjust the height based on your preference */
+    background-image: url("./assets/yup.jpg"); 
+    background-repeat: no-repeat;
+  }
+  
+  .background-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .background-slide {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+  .overlay-text {
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: rgb(243, 238, 238); /* Adjust text color based on your background */
+  }
+  .footer {
+    background-color: #e1e5eb;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
