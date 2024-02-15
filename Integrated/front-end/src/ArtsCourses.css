@@ -1,0 +1,75 @@
+/* ArtsCourses.css */
+
+.arts-img {
+  background-position: 0%;
+  background-image: url("./assets/university.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.headi {
+  text-align: center;
+  text-decoration: solid;
+  text-shadow: 2px 2px 5px white;
+  padding: 20px 20px 20px 20px;
+  color: blue;
+}
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.course-box {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  box-shadow: 2px 5px 10px rgb(231, 227, 227);
+  border-radius: 15px 50px; /* Adjust background color as needed */
+  text-align: center;
+  transition: transform 0.5s; /* Transition for smooth transformation */
+}
+
+.course-box.clicked {
+  transform: translateZ(20px); /* 3D transformation on click */
+}
+
+.course-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  color: blue;
+}
+
+.course-box p {
+  margin: 0;
+  color: black;
+  font-weight: bold;
+}
+
+.course-box button {
+  background-color: darkcyan;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.course-box button:hover {
+  background-color: blue;
+}
+
+.course-box span {
+  color: #ff0000;
+}

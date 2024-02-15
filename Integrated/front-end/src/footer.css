@@ -1,0 +1,37 @@
+/* Footer.css */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .contact-info,
+  .quick-links {
+    flex: 1;
+  }
+  
+  .contact-info h3,
+  .quick-links h3 {
+    font-size: 18px;
+  }
+  
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links li {
+    margin-bottom: 8px;
+  }
+  
+  .additional-info {
+    margin-top: 20px;
+  }
+  
